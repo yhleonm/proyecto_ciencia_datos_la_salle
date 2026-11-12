@@ -1,0 +1,53 @@
+{
+    "project_title": "Proyecto Integrador de Ciencia de Datos - Universidad de La Salle",
+    "student": "Yerson León Montañez",
+    "teacher": "Fabián Camilo Castro Riveros",
+    "dataset_total_records": 7043,
+    "dataset_features": 22,
+    "classification_best_model": "XGBoost Classifier",
+    "classification_metrics_test": {
+        "Accuracy": 0.772,
+        "Precision": 0.5457,
+        "Recall": 0.7821,
+        "F1_Score_Pos": 0.6432,
+        "AUC_ROC": 0.8467,
+        "PR_AUC": 0.6551
+    },
+    "regression_best_model": "Random Forest Regressor",
+    "regression_metrics_test": {
+        "R2_Score": 0.9986,
+        "RMSE_USD": 81.91,
+        "MAE_USD": 55.88
+    },
+    "clustering_metrics": {
+        "optimal_k": 3,
+        "kmeans_silhouette": 0.3835,
+        "hierarchical_silhouette": 0.3419,
+        "segments": [
+            {
+                "id": 0,
+                "name": "Premium Fidelizado",
+                "clients": 2185,
+                "avg_tenure": 58.5,
+                "avg_fee": 90.07,
+                "churn_rate": 15.0
+            },
+            {
+                "id": 1,
+                "name": "Nuevo en Alto Riesgo",
+                "clients": 2714,
+                "avg_tenure": 15.2,
+                "avg_fee": 74.94,
+                "churn_rate": 45.4
+            },
+            {
+                "id": 2,
+                "name": "Económico Básico",
+                "clients": 2144,
+                "avg_tenure": 27.6,
+                "avg_fee": 26.09,
+                "churn_rate": 14.5
+            }
+        ]
+    }
+}
