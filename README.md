@@ -145,6 +145,10 @@ python -m src.export_fase4_artifacts
 
 ### 5. Lanzar el Dashboard Interactivo de Streamlit
 ```bash
+# Opción recomendada (funciona en cualquier sistema operativo):
+python -m streamlit run dashboard/app.py
+
+# O directamente si la carpeta de scripts está en el PATH:
 streamlit run dashboard/app.py
 ```
 La aplicación se abrirá automáticamente en tu navegador web en `http://localhost:8501`.
